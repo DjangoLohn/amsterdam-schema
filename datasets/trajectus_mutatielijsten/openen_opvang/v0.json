@@ -18,28 +18,28 @@
       "schema": {
         "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
       },
-      "CLIENT_TRAJECTUS_ID": {
+      "client_trajectus_id": {
         "type": "string",
         "title": "Trajectus Client ID",
         "description": "Unieke aanduiding van client in applicatie."
       },
-      "OPVANGLOCATIE": {
+      "opvanglocatie": {
         "type": "string",
         "title": "Opvanglocatie.",
         "description": "Locatie van de opvang."
       },
-      "CLIENT_TRAJECTUS_ID_GEACCEPTEERD": {
+      "client_trajectus_id_geaccepteerd": {
         "type": "string",
         "title": "Trajectus Client ID geaccepteerd",
         "description": "Cliëntnummer van de cliënt uit Trajectus voor wie het leegbed is geaccepteerd."
       },
-      "DATUM_START_LEEGBED_VRIJ_VERWACHT": {
+      "datum_start_leegbed_vrij_verwacht": {
         "type": "string",
         "title": "Datum start leegbed vrij verwacht",
         "format": "date",
         "description": "De datum waarop verwacht wordt dat een bed vrij komt."
       },
-      "DATUM_START_LEEGBED_VRIJ": {
+      "datum_start_leegbed_vrij": {
         "type": "string",
         "title": "Datum start leegbed vrij",
         "format": "date",
