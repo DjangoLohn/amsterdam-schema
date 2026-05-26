@@ -1,0 +1,50 @@
+{
+  "id": "openen_opvang",
+  "title": "Mutatielijst openen opvang",
+  "description": "Tabel met te openen opvangtrajecten.",
+  "type": "table",
+  "version": "0.0.1",
+  "status": "stable",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "schema",
+      "id"
+    ],
+    "display": "id",
+    "properties": {
+      "schema": {
+        "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
+      },
+      "CLIENT_TRAJECTUS_ID": {
+        "type": "string",
+        "title": "Trajectus Client ID",
+        "description": "Unieke aanduiding van client in applicatie."
+      },
+      "OPVANGLOCATIE": {
+        "type": "string",
+        "title": "Opvanglocatie.",
+        "description": "Locatie van de opvang."
+      },
+      "CLIENT_TRAJECTUS_ID_GEACCEPTEERD": {
+        "type": "string",
+        "title": "Trajectus Client ID geaccepteerd",
+        "description": "Cliëntnummer van de cliënt uit Trajectus voor wie het leegbed is geaccepteerd."
+      },
+      "DATUM_START_LEEGBED_VRIJ_VERWACHT": {
+        "type": "string",
+        "title": "Datum start leegbed vrij verwacht",
+        "format": "date",
+        "description": "De datum waarop verwacht wordt dat een bed vrij komt."
+      },
+      "DATUM_START_LEEGBED_VRIJ": {
+        "type": "string",
+        "title": "Datum start leegbed vrij",
+        "format": "date",
+        "description": "De datum waarop het bed daadwerkelijk vrij komt."
+      }
+    }
+  }
+}
