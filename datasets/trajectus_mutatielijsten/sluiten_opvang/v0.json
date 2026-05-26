@@ -12,7 +12,7 @@
     "required": [
       "schema"      
     ],
-    "display": "id",
+    "display": "client_trajectus_id",
     "properties": {
       "schema": {
         "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
