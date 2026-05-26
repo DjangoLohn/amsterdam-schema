@@ -1,0 +1,49 @@
+{
+  "id": "mutatielijst_sluiten_opvang",
+  "title": "Mutatielijsten sluiten opvang",
+  "description": "Tabel met te sluiten opvangtrajecten.",
+  "type": "table",
+  "version": "0.0.1",
+  "status": "stable",
+  "schema": {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "schema",
+      "id"
+    ],
+    "display": "id",
+    "properties": {
+      "schema": {
+        "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
+      },
+      "CLIENT_TRAJECTUS_ID": {
+        "type": "string",
+        "title": "Trajectus Client ID",
+        "description": "Unieke aanduiding van client in applicatie."
+      },
+      "OPVANGLOCATIE": {
+        "type": "string",
+        "title": "Opvanglocatie.",
+        "description": "Locatie van de opvang."
+      },
+      "DATUM_START_ZORG": {
+        "type": "string",
+        "title": "Datum einde zorg",
+        "format": "date",
+        "description": "Datum waarop zorg startte."
+      },
+      "ZORGAANBIEDER": {
+        "type": "string",
+        "title": "Zorgaanbieder",
+        "description": "Naam van zorgaanbieder in traject."
+      },
+      "VOORZIENING": {
+        "type": "string",
+        "title": "Voorziening",
+        "description": "Voorziening binnen traject."
+      }
+    }
+  }
+}
