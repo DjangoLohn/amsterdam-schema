@@ -33,6 +33,11 @@
         "title": "Reden einde zorg",
         "description": "Reden waarom zorg eindigde."
       },
+      "ZORGAANBIEDER": {
+        "type": "string",
+        "title": "Zorgaanbieder",
+        "description": "Naam van zorgaanbieder in traject."
+      },
       "DATUM_EIND_ZORG": {
         "type": "string",
         "title": "Datum einde zorg",
