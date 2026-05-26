@@ -1,6 +1,6 @@
 {
-  "id": "mutatielijst_sluiten_opvang",
-  "title": "Mutatielijsten sluiten opvang",
+  "id": "sluiten_opvang",
+  "title": "Mutatielijst sluiten opvang",
   "description": "Tabel met te sluiten opvangtrajecten.",
   "type": "table",
   "version": "0.0.1",
