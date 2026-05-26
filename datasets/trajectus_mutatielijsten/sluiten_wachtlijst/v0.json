@@ -1,7 +1,7 @@
 {
-  "id": "mutatielijst_sluiten_opvang",
-  "title": "Mutatielijsten sluiten opvang",
-  "description": "Tabel met te sluiten opvangtrajecten.",
+  "id": "sluiten_wachtlijst",
+  "title": "Mutatielijst sluiten wachtlijst",
+  "description": "Tabel met te sluiten wachtlijsten.",
   "type": "table",
   "version": "0.0.1",
   "status": "stable",
@@ -42,7 +42,7 @@
       "VOORZIENING": {
         "type": "string",
         "title": "Voorziening",
-        "description": "Voorziening binnen traject."
+        "description": "De voorziening waarvoor de cliënt in opvang zit of voor op de wachtlijst staat."
       }
     }
   }
