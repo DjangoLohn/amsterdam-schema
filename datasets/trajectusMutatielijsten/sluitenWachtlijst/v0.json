@@ -1,5 +1,5 @@
 {
-  "id": "sluiten_wachtlijst",
+  "id": "sluitenWachtlijst",
   "title": "Mutatielijst sluiten wachtlijst",
   "description": "Tabel met te sluiten wachtlijsten.",
   "type": "table",
