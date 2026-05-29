@@ -19,7 +19,7 @@
       },
       "id": {
         "type": "string",
-        "description": "Unieke aanduiding persoon"
+        "description": "Unieke aanduiding database rij"
       },
       "client_trajectus_id": {
         "type": "string",
