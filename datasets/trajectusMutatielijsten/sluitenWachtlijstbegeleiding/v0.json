@@ -12,7 +12,7 @@
     "required": [
       "schema"
     ],
-    "display": "client_trajectus_id",
+    "display": "clientTrajectusId",
     "properties": {
       "schema": {
         "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
@@ -21,12 +21,12 @@
         "type": "string",
         "description": "Unieke aanduiding database rij"
       },
-      "client_trajectus_id": {
+      "clientTrajectusId": {
         "type": "string",
         "title": "Trajectus Client ID",
         "description": "Unieke aanduiding van client in applicatie."
       },
-      "reden_eind_zorg": {
+      "redenEindZorg": {
         "type": "string",
         "title": "Reden einde zorg",
         "description": "Reden waarom zorg eindigde."
@@ -36,7 +36,7 @@
         "title": "Zorgaanbieder",
         "description": "Naam van zorgaanbieder in traject."
       },
-      "datum_eind_zorg": {
+      "datumEindZorg": {
         "type": "string",
         "title": "Datum einde zorg",
         "format": "date",
