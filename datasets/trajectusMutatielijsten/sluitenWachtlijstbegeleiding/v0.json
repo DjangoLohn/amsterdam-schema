@@ -1,5 +1,5 @@
 {
-  "id": "sluiten_wachtlijstbegeleiding",
+  "id": "sluitenWachtlijstbegeleiding",
   "title": "Mutatielijst sluiten wachtlijstbegeleiding",
   "description": "Tabel met te sluiten wachtlijstbegeleidingen.",
   "type": "table",
