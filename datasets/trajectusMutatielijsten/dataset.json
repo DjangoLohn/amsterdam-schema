@@ -22,20 +22,20 @@
       "version": "0.0.1",
       "tables": [
         {
-          "id": "sluiten_opvang",
-          "$ref": "sluiten_opvang/v0"
+          "id": "sluitenOpvang",
+          "$ref": "sluitenOpvang/v0"
         },
         {
-          "id": "sluiten_wachtlijst",
-          "$ref": "sluiten_wachtlijst/v0"
+          "id": "sluitenWachtlijst",
+          "$ref": "sluitenWachtlijst/v0"
         },
         {
-          "id": "openen_opvang",
-          "$ref": "openen_opvang/v0"
+          "id": "openenOpvang",
+          "$ref": "openenOpvang/v0"
         },
         {
-          "id": "sluiten_wachtlijstbegeleiding",
-          "$ref": "sluiten_wachtlijstbegeleiding/v0"
+          "id": "sluitenWachtlijstbegeleiding",
+          "$ref": "sluitenWachtlijstbegeleiding/v0"
         }
       ]
     }
