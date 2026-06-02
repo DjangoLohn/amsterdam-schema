@@ -11,13 +11,13 @@
     "additionalProperties": false,
     "identifier": [
       "clientTrajectusId",
-      "opvanglocatie",
+      "zorgaanbieder",
       "voorziening"
     ],
     "required": [
       "schema",
       "clientTrajectusId",
-      "opvanglocatie",
+      "zorgaanbieder",
       "voorziening"
     ],
     "display": "clientTrajectusId",
