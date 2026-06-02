@@ -11,8 +11,7 @@
     "additionalProperties": false,
     "identifier": [
       "clientTrajectusId",
-      "opvanglocatie",
-      
+      "opvanglocatie"      
     ],
     "required": [
       "schema",
