@@ -22,80 +22,40 @@
             "version": "0.0.1",
             "tables": [
                 {
-                    "id": "d_voorziening_jeugdwmo",
-                    "$ref": "d_voorziening_jeugdwmo/v0"
+                    "id": "fBeschiktevoorzieningAio",
+                    "$ref": "fBeschiktevoorzieningAio/v0"
                 },
                 {
-                    "id": "f_beschiktevoorziening_aio",
-                    "$ref": "f_beschiktevoorziening_aio/v0"
+                    "id": "fBeschiktevoorzieningBvbt",
+                    "$ref": "fBeschiktevoorzieningBvbt/v0"
                 },
                 {
-                    "id": "f_beschiktevoorziening_bvbt",
-                    "$ref": "f_beschiktevoorziening_bvbt/v0"
+                    "id": "fBeschiktevoorzieningDagbesteding",
+                    "$ref": "fBeschiktevoorzieningDagbesteding/v0"
                 },
                 {
-                    "id": "f_beschiktevoorziening_dagbesteding",
-                    "$ref": "f_beschiktevoorziening_dagbesteding/v0"
+                    "id": "fBeschiktevoorzieningEsjh",
+                    "$ref": "fBeschiktevoorzieningEsjh/v0"
                 },
                 {
-                    "id": "f_beschiktevoorziening_esjh",
-                    "$ref": "f_beschiktevoorziening_esjh/v0"
+                    "id": "fBeschiktevoorzieningHsjh",
+                    "$ref": "fBeschiktevoorzieningHsjh/v0"
                 },
                 {
-                    "id": "f_beschiktevoorziening_hsjh",
-                    "$ref": "f_beschiktevoorziening_hsjh/v0"
+                    "id": "fBeschiktevoorzieningVroegsteingangsdatum",
+                    "$ref": "fBeschiktevoorzieningVroegsteingangsdatum/v0"
                 },
                 {
-                    "id": "f_beschiktevoorziening_vroegsteingangsdatum",
-                    "$ref": "f_beschiktevoorziening_vroegsteingangsdatum/v0"
+                    "id": "fFactuurregelWrv",
+                    "$ref": "fFactuurregelWrv/v0"
                 },
                 {
-                    "id": "f_factuurregel_wrv",
-                    "$ref": "f_factuurregel_wrv/v0"
+                    "id": "fFactuurregelZinjeugd",
+                    "$ref": "fFactuurregelZinjeugd/v0"
                 },
                 {
-                    "id": "f_factuurregel_zinjeugd",
-                    "$ref": "f_factuurregel_zinjeugd/v0"
-                },
-                {
-                    "id": "f_factuurregel_zinwijkmobw",
-                    "$ref": "f_factuurregel_zinwijkmobw/v0"
-                },
-                {
-                    "id": "f_levering_aio",
-                    "$ref": "f_levering_aio/v0"
-                },
-                {
-                    "id": "f_levering_bvbt",
-                    "$ref": "f_levering_bvbt/v0"
-                },
-                {
-                    "id": "f_levering_dagbesteding",
-                    "$ref": "f_levering_dagbesteding/v0"
-                },
-                {
-                    "id": "f_levering_esjh",
-                    "$ref": "f_levering_esjh/v0"
-                },
-                {
-                    "id": "f_levering_hsjh",
-                    "$ref": "f_levering_hsjh/v0"
-                },
-                {
-                    "id": "f_verplichting_budgetjaar_pgbjeugd",
-                    "$ref": "f_verplichting_budgetjaar_pgbjeugd/v0"
-                },
-                {
-                    "id": "f_verplichting_budgetjaar_pgbwijkzorgmobw",
-                    "$ref": "f_verplichting_budgetjaar_pgbwijkzorgmobw/v0"
-                },
-                {
-                    "id": "f_verplichting_budgetjaar_wra",
-                    "$ref": "f_verplichting_budgetjaar_wra/v0"
-                },
-                {
-                    "id": "mta_business_definities",
-                    "$ref": "mta_business_definities/v0"
+                    "id": "fFactuurregelZinwijkmobw",
+                    "$ref": "fFactuurregelZinwijkmobw/v0"
                 }
             ]
         }
