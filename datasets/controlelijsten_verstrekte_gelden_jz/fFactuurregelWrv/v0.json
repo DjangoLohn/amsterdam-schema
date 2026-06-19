@@ -11,18 +11,7 @@
         "additionalProperties": false,
         "identifier": [
             "clientZorgnedId",
-            "factuurId",
-            "productcategorie",
-            "voorzieningsoort",
-            "voorziening",
-            "zorgaanbieder",
-            "postcodeZorgaanbieder",
-            "leveringsvorm",
-            "jaarBetrekkingOp",
-            "datumStartFactuurregel",
-            "datumEindFactuurregel",
-            "bedragGoedgekeurd",
-            "datumExport"
+            "factuurId"
         ],
         "required": [
             "schema",
@@ -31,14 +20,7 @@
             "productcategorie",
             "voorzieningsoort",
             "voorziening",
-            "zorgaanbieder",
-            "postcodeZorgaanbieder",
-            "leveringsvorm",
-            "jaarBetrekkingOp",
-            "datumStartFactuurregel",
-            "datumEindFactuurregel",
-            "bedragGoedgekeurd",
-            "datumExport"
+            "zorgaanbieder"
         ],
         "display": "clientZorgnedId",
         "properties": {

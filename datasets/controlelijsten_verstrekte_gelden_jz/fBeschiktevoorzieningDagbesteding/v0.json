@@ -12,33 +12,13 @@
         "identifier": [
             "clientZorgnedId",
             "beschiktevoorzieningId",
-            "zorgaanbieder",
-            "postcodeZorgaanbieder",
-            "voorziening",
-            "voorzieningsoort",
-            "productcategorie",
-            "productCode",
-            "leveringsvorm",
-            "jaarStartRecht",
-            "datumStartRecht",
-            "datumEindRecht",
-            "datumExport"
+            "zorgaanbieder"
         ],
         "required": [
             "schema",
             "clientZorgnedId",
             "beschiktevoorzieningId",
-            "zorgaanbieder",
-            "postcodeZorgaanbieder",
-            "voorziening",
-            "voorzieningsoort",
-            "productcategorie",
-            "productCode",
-            "leveringsvorm",
-            "jaarStartRecht",
-            "datumStartRecht",
-            "datumEindRecht",
-            "datumExport"
+            "zorgaanbieder"
         ],
         "display": "clientZorgnedId",
         "properties": {

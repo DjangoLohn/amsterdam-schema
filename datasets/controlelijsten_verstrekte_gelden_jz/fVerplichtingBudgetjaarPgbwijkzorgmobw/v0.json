@@ -14,16 +14,7 @@
             "productcategorie",
             "voorzieningsoort",
             "voorziening",
-            "zorgaanbieder",
-            "postcodeZorgaanbieder",
-            "productCode",
-            "leveringsvorm",
-            "jaarVerplichting",
-            "datumBeginVerplichting",
-            "datumEindVerplichtingFeitelijk",
-            "bedragJaarverplichting",
-            "bedragJaarverplichtingGeboekt",
-            "datumExport"
+            "zorgaanbieder"
         ],
         "required": [
             "schema",
@@ -31,16 +22,7 @@
             "productcategorie",
             "voorzieningsoort",
             "voorziening",
-            "zorgaanbieder",
-            "postcodeZorgaanbieder",
-            "productCode",
-            "leveringsvorm",
-            "jaarVerplichting",
-            "datumBeginVerplichting",
-            "datumEindVerplichtingFeitelijk",
-            "bedragJaarverplichting",
-            "bedragJaarverplichtingGeboekt",
-            "datumExport"
+            "zorgaanbieder"
         ],
         "display": "clientZorgnedId",
         "properties": {

@@ -12,18 +12,7 @@
         "identifier": [
             "clientZorgnedId",
             "toewijzingsnummerLevering",
-            "beschiktevoorzieningId",
-            "productcategorie",
-            "voorzieningsoort",
-            "voorziening",
-            "zorgaanbieder",
-            "postcodeZorgaanbieder",
-            "productCode",
-            "leveringsvorm",
-            "jaarStartZorg",
-            "datumStartZorg",
-            "datumEindZorg",
-            "datumExport"
+            "beschiktevoorzieningId"
         ],
         "required": [
             "schema",
@@ -33,14 +22,7 @@
             "productcategorie",
             "voorzieningsoort",
             "voorziening",
-            "zorgaanbieder",
-            "postcodeZorgaanbieder",
-            "productCode",
-            "leveringsvorm",
-            "jaarStartZorg",
-            "datumStartZorg",
-            "datumEindZorg",
-            "datumExport"
+            "zorgaanbieder"
         ],
         "display": "clientZorgnedId",
         "properties": {

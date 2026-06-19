@@ -13,16 +13,14 @@
             "regeling",
             "clientZorgnedId",
             "voorziening",
-            "leveringsvorm",
-            "eersteDatumStartRecht"
+            "leveringsvorm"
         ],
         "required": [
             "schema",
             "regeling",
             "clientZorgnedId",
             "voorziening",
-            "leveringsvorm",
-            "eersteDatumStartRecht"
+            "leveringsvorm"
         ],
         "display": "regeling",
         "properties": {
