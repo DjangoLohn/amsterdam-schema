@@ -1,6 +1,6 @@
 {
     "id": "fLeveringEsjh",
-    "title": "Titel voor F levering esjh",
+    "title": "F levering esjh",
     "description": "Beschrijving voor f_levering_esjh",
     "type": "table",
     "version": "0.0.1",
@@ -10,9 +10,23 @@
         "type": "object",
         "additionalProperties": false,
         "identifier": [
-            "clientZorgnedId"
+            "clientZorgnedId",
+            "toewijzingsnummerLevering",
+            "beschiktevoorzieningId",
+            "productcategorie",
+            "voorzieningsoort",
+            "voorziening",
+            "zorgaanbieder",
+            "postcodeZorgaanbieder",
+            "productCode",
+            "leveringsvorm",
+            "jaarStartZorg",
+            "datumStartZorg",
+            "datumEindZorg",
+            "datumExport"
         ],
         "required": [
+            "schema",
             "clientZorgnedId",
             "toewijzingsnummerLevering",
             "beschiktevoorzieningId",
@@ -30,6 +44,9 @@
         ],
         "display": "clientZorgnedId",
         "properties": {
+            "schema": {
+                "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
+            },
             "clientZorgnedId": {
                 "type": "string",
                 "title": "Client zorgned id",

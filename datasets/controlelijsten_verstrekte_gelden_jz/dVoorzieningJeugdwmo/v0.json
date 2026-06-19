@@ -1,6 +1,6 @@
 {
     "id": "dVoorzieningJeugdwmo",
-    "title": "Titel voor D voorziening jeugdwmo",
+    "title": "D voorziening jeugdwmo",
     "description": "Beschrijving voor d_voorziening_jeugdwmo",
     "type": "table",
     "version": "0.0.1",
@@ -10,14 +10,19 @@
         "type": "object",
         "additionalProperties": false,
         "identifier": [
-            "voorziening"
+            "voorziening",
+            "regeling"
         ],
         "required": [
+            "schema",
             "voorziening",
             "regeling"
         ],
         "display": "voorziening",
         "properties": {
+            "schema": {
+                "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
+            },
             "voorziening": {
                 "type": "string",
                 "title": "Voorziening",

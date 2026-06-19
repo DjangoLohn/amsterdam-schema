@@ -1,6 +1,6 @@
 {
     "id": "fVerplichtingBudgetjaarPgbjeugd",
-    "title": "Titel voor F verplichting budgetjaar pgbjeugd",
+    "title": "F verplichting budgetjaar pgbjeugd",
     "description": "Beschrijving voor f_verplichting_budgetjaar_pgbjeugd",
     "type": "table",
     "version": "0.0.1",
@@ -10,9 +10,23 @@
         "type": "object",
         "additionalProperties": false,
         "identifier": [
-            "clientZorgnedId"
+            "clientZorgnedId",
+            "productcategorie",
+            "voorzieningsoort",
+            "voorziening",
+            "zorgaanbieder",
+            "postcodeZorgaanbieder",
+            "productCode",
+            "leveringsvorm",
+            "jaarVerplichting",
+            "datumBeginVerplichting",
+            "datumEindVerplichtingFeitelijk",
+            "bedragJaarverplichting",
+            "bedragJaarverplichtingGeboekt",
+            "datumExport"
         ],
         "required": [
+            "schema",
             "clientZorgnedId",
             "productcategorie",
             "voorzieningsoort",
@@ -30,6 +44,9 @@
         ],
         "display": "clientZorgnedId",
         "properties": {
+            "schema": {
+                "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
+            },
             "clientZorgnedId": {
                 "type": "string",
                 "title": "Client zorgned id",

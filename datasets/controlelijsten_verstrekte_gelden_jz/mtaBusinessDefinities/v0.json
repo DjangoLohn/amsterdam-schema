@@ -1,6 +1,6 @@
 {
     "id": "mtaBusinessDefinities",
-    "title": "Titel voor Mta business definities",
+    "title": "Mta business definities",
     "description": "Beschrijving voor mta_business_definities",
     "type": "table",
     "version": "0.0.1",
@@ -10,9 +10,30 @@
         "type": "object",
         "additionalProperties": false,
         "identifier": [
-            "mtaIdBusinessDefinities"
+            "mtaIdBusinessDefinities",
+            "mtaGeldigVanDatumtijd",
+            "mtaGeldigTotDatumtijd",
+            "mtaLaadDatumtijd",
+            "mtaExportDatumtijd",
+            "mtaActiefIndicator",
+            "mtaVerwijderdIndicator",
+            "mtaBronCode",
+            "mtaRowDataHash",
+            "mtaRowIdHash",
+            "mtaBron",
+            "herkomstcategorie",
+            "tabelnaam",
+            "veldnaamBrontabel",
+            "veldnaamRapport",
+            "definitie",
+            "tonenInRapport",
+            "businessnaam",
+            "korteBeschrijving",
+            "langeBeschrijving",
+            "businessRule"
         ],
         "required": [
+            "schema",
             "mtaIdBusinessDefinities",
             "mtaGeldigVanDatumtijd",
             "mtaGeldigTotDatumtijd",
@@ -37,6 +58,9 @@
         ],
         "display": "mtaIdBusinessDefinities",
         "properties": {
+            "schema": {
+                "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
+            },
             "mtaIdBusinessDefinities": {
                 "type": "string",
                 "title": "Mta id business definities",

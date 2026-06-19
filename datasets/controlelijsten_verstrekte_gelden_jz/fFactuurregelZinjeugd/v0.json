@@ -1,6 +1,6 @@
 {
     "id": "fFactuurregelZinjeugd",
-    "title": "Titel voor F factuurregel zinjeugd",
+    "title": "F factuurregel zinjeugd",
     "description": "Beschrijving voor f_factuurregel_zinjeugd",
     "type": "table",
     "version": "0.0.1",
@@ -10,9 +10,22 @@
         "type": "object",
         "additionalProperties": false,
         "identifier": [
-            "clientZorgnedId"
+            "clientZorgnedId",
+            "factuurId",
+            "productcategorie",
+            "voorzieningsoort",
+            "voorziening",
+            "zorgaanbieder",
+            "postcodeZorgaanbieder",
+            "leveringsvorm",
+            "jaarBetrekkingOp",
+            "datumStartFactuurregel",
+            "datumEindFactuurregel",
+            "bedragGoedgekeurd",
+            "datumExport"
         ],
         "required": [
+            "schema",
             "clientZorgnedId",
             "factuurId",
             "productcategorie",
@@ -29,6 +42,9 @@
         ],
         "display": "clientZorgnedId",
         "properties": {
+            "schema": {
+                "$ref": "https://schemas.data.amsterdam.nl/schema@v4.0.0#/definitions/schema"
+            },
             "clientZorgnedId": {
                 "type": "string",
                 "title": "Client zorgned id",
