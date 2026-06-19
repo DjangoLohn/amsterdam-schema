@@ -1,0 +1,95 @@
+{
+    "id": "f_verplichting_budgetjaar_pgbjeugd",
+    "title": "Titel voor f_verplichting_budgetjaar_pgbjeugd",
+    "description": "Beschrijving voor f_verplichting_budgetjaar_pgbjeugd",
+    "type": "table",
+    "version": "0.0.1",
+    "status": "stable",
+    "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "additionalProperties": false,
+        "identifier": [
+            "CLIENT_ZORGNED_ID"
+        ],
+        "required": [
+            "CLIENT_ZORGNED_ID",
+            "PRODUCTCATEGORIE",
+            "VOORZIENINGSOORT",
+            "VOORZIENING",
+            "ZORGAANBIEDER",
+            "PRODUCT_CODE",
+            "LEVERINGSVORM",
+            "JAAR_VERPLICHTING",
+            "DATUM_BEGIN_VERPLICHTING",
+            "DATUM_EIND_VERPLICHTING_FEITELIJK",
+            "BEDRAG_JAARVERPLICHTING",
+            "BEDRAG_JAARVERPLICHTING_GEBOEKT"
+        ],
+        "display": "CLIENT_ZORGNED_ID",
+        "properties": {
+            "CLIENT_ZORGNED_ID": {
+                "type": "string",
+                "title": "CLIENT_ZORGNED_ID",
+                "description": "Beschrijving voor CLIENT_ZORGNED_ID"
+            },
+            "PRODUCTCATEGORIE": {
+                "type": "string",
+                "title": "PRODUCTCATEGORIE",
+                "description": "Beschrijving voor PRODUCTCATEGORIE"
+            },
+            "VOORZIENINGSOORT": {
+                "type": "string",
+                "title": "VOORZIENINGSOORT",
+                "description": "Beschrijving voor VOORZIENINGSOORT"
+            },
+            "VOORZIENING": {
+                "type": "string",
+                "title": "VOORZIENING",
+                "description": "Beschrijving voor VOORZIENING"
+            },
+            "ZORGAANBIEDER": {
+                "type": "string",
+                "title": "ZORGAANBIEDER",
+                "description": "Beschrijving voor ZORGAANBIEDER"
+            },
+            "PRODUCT_CODE": {
+                "type": "string",
+                "title": "PRODUCT_CODE",
+                "description": "Beschrijving voor PRODUCT_CODE"
+            },
+            "LEVERINGSVORM": {
+                "type": "string",
+                "title": "LEVERINGSVORM",
+                "description": "Beschrijving voor LEVERINGSVORM"
+            },
+            "JAAR_VERPLICHTING": {
+                "type": "integer",
+                "title": "JAAR_VERPLICHTING",
+                "description": "Beschrijving voor JAAR_VERPLICHTING"
+            },
+            "DATUM_BEGIN_VERPLICHTING": {
+                "type": "string",
+                "format": "date",
+                "title": "DATUM_BEGIN_VERPLICHTING",
+                "description": "Beschrijving voor DATUM_BEGIN_VERPLICHTING"
+            },
+            "DATUM_EIND_VERPLICHTING_FEITELIJK": {
+                "type": "string",
+                "format": "date",
+                "title": "DATUM_EIND_VERPLICHTING_FEITELIJK",
+                "description": "Beschrijving voor DATUM_EIND_VERPLICHTING_FEITELIJK"
+            },
+            "BEDRAG_JAARVERPLICHTING": {
+                "type": "number",
+                "title": "BEDRAG_JAARVERPLICHTING",
+                "description": "Beschrijving voor BEDRAG_JAARVERPLICHTING"
+            },
+            "BEDRAG_JAARVERPLICHTING_GEBOEKT": {
+                "type": "number",
+                "title": "BEDRAG_JAARVERPLICHTING_GEBOEKT",
+                "description": "Beschrijving voor BEDRAG_JAARVERPLICHTING_GEBOEKT"
+            }
+        }
+    }
+}

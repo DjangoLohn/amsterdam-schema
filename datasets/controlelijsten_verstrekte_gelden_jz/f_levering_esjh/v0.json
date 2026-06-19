@@ -1,0 +1,95 @@
+{
+    "id": "f_levering_esjh",
+    "title": "Titel voor f_levering_esjh",
+    "description": "Beschrijving voor f_levering_esjh",
+    "type": "table",
+    "version": "0.0.1",
+    "status": "stable",
+    "schema": {
+        "$schema": "http://json-schema.org/draft-07/schema#",
+        "type": "object",
+        "additionalProperties": false,
+        "identifier": [
+            "CLIENT_ZORGNED_ID"
+        ],
+        "required": [
+            "CLIENT_ZORGNED_ID",
+            "TOEWIJZINGSNUMMER_LEVERING",
+            "BESCHIKTEVOORZIENING_ID",
+            "PRODUCTCATEGORIE",
+            "VOORZIENINGSOORT",
+            "VOORZIENING",
+            "ZORGAANBIEDER",
+            "PRODUCT_CODE",
+            "LEVERINGSVORM",
+            "JAAR_START_ZORG",
+            "DATUM_START_ZORG",
+            "DATUM_EIND_ZORG"
+        ],
+        "display": "CLIENT_ZORGNED_ID",
+        "properties": {
+            "CLIENT_ZORGNED_ID": {
+                "type": "string",
+                "title": "CLIENT_ZORGNED_ID",
+                "description": "Beschrijving voor CLIENT_ZORGNED_ID"
+            },
+            "TOEWIJZINGSNUMMER_LEVERING": {
+                "type": "string",
+                "title": "TOEWIJZINGSNUMMER_LEVERING",
+                "description": "Beschrijving voor TOEWIJZINGSNUMMER_LEVERING"
+            },
+            "BESCHIKTEVOORZIENING_ID": {
+                "type": "number",
+                "title": "BESCHIKTEVOORZIENING_ID",
+                "description": "Beschrijving voor BESCHIKTEVOORZIENING_ID"
+            },
+            "PRODUCTCATEGORIE": {
+                "type": "string",
+                "title": "PRODUCTCATEGORIE",
+                "description": "Beschrijving voor PRODUCTCATEGORIE"
+            },
+            "VOORZIENINGSOORT": {
+                "type": "string",
+                "title": "VOORZIENINGSOORT",
+                "description": "Beschrijving voor VOORZIENINGSOORT"
+            },
+            "VOORZIENING": {
+                "type": "string",
+                "title": "VOORZIENING",
+                "description": "Beschrijving voor VOORZIENING"
+            },
+            "ZORGAANBIEDER": {
+                "type": "string",
+                "title": "ZORGAANBIEDER",
+                "description": "Beschrijving voor ZORGAANBIEDER"
+            },
+            "PRODUCT_CODE": {
+                "type": "string",
+                "title": "PRODUCT_CODE",
+                "description": "Beschrijving voor PRODUCT_CODE"
+            },
+            "LEVERINGSVORM": {
+                "type": "string",
+                "title": "LEVERINGSVORM",
+                "description": "Beschrijving voor LEVERINGSVORM"
+            },
+            "JAAR_START_ZORG": {
+                "type": "integer",
+                "title": "JAAR_START_ZORG",
+                "description": "Beschrijving voor JAAR_START_ZORG"
+            },
+            "DATUM_START_ZORG": {
+                "type": "string",
+                "format": "date",
+                "title": "DATUM_START_ZORG",
+                "description": "Beschrijving voor DATUM_START_ZORG"
+            },
+            "DATUM_EIND_ZORG": {
+                "type": "string",
+                "format": "date",
+                "title": "DATUM_EIND_ZORG",
+                "description": "Beschrijving voor DATUM_EIND_ZORG"
+            }
+        }
+    }
+}
