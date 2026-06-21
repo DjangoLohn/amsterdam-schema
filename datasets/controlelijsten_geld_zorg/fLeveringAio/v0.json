@@ -40,7 +40,7 @@
                 "description": "Beschrijving voor TOEWIJZINGSNUMMER_LEVERING"
             },
             "beschiktevoorzieningId": {
-                "type": "number",
+                "type": "string",
                 "title": "Beschiktevoorziening id",
                 "description": "Beschrijving voor BESCHIKTEVOORZIENING_ID"
             },

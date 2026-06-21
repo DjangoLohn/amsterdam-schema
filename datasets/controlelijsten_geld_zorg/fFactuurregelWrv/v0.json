@@ -33,7 +33,7 @@
                 "description": "Beschrijving voor CLIENT_ZORGNED_ID"
             },
             "factuurId": {
-                "type": "number",
+                "type": "string",
                 "title": "Factuur id",
                 "description": "Beschrijving voor FACTUUR_ID"
             },

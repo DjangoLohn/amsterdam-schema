@@ -31,7 +31,7 @@
                 "description": "Beschrijving voor CLIENT_ZORGNED_ID"
             },
             "beschiktevoorzieningId": {
-                "type": "number",
+                "type": "string",
                 "title": "Beschiktevoorziening id",
                 "description": "Beschrijving voor BESCHIKTEVOORZIENING_ID"
             },
