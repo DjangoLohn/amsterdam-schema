@@ -1,5 +1,5 @@
 {
-    "id": "controleGeldenZorg",
+    "id": "controlelijstenGeldZorg",
     "type": "dataset",
     "title": "Controlelijsten Verstrekte Gelden Jeugdhulp en Zorgvoorzieningen",
     "description": "",
@@ -22,32 +22,32 @@
             "version": "0.0.1",
             "tables": [
                 {
-                    "id": "dVoorzieningJeugdwmo",
-                    "$ref": "dVoorzieningJeugdwmo/v0"
+                    "id": "dVzJeugdwmo",
+                    "$ref": "dVzJeugdwmo/v0"
                 },
                 {
-                    "id": "fBeschiktevoorzieningAio",
-                    "$ref": "fBeschiktevoorzieningAio/v0"
+                    "id": "fBeschikteVzAio",
+                    "$ref": "fBeschikteVzAio/v0"
                 },
                 {
-                    "id": "fBeschiktevoorzieningBvbt",
-                    "$ref": "fBeschiktevoorzieningBvbt/v0"
+                    "id": "fBeschikteVzBvbt",
+                    "$ref": "fBeschikteVzBvbt/v0"
                 },
                 {
-                    "id": "fBeschiktevoorzieningDagbesteding",
-                    "$ref": "fBeschiktevoorzieningDagbesteding/v0"
+                    "id": "fBeschikteVzDagbesteding",
+                    "$ref": "fBeschikteVzDagbesteding/v0"
                 },
                 {
-                    "id": "fBeschiktevoorzieningEsjh",
-                    "$ref": "fBeschiktevoorzieningEsjh/v0"
+                    "id": "fBeschikteVzEsjh",
+                    "$ref": "fBeschikteVzEsjh/v0"
                 },
                 {
-                    "id": "fBeschiktevoorzieningHsjh",
-                    "$ref": "fBeschiktevoorzieningHsjh/v0"
+                    "id": "fBeschikteVzHsjh",
+                    "$ref": "fBeschikteVzHsjh/v0"
                 },
                 {
-                    "id": "fBeschiktevoorzieningVroegsteingangsdatum",
-                    "$ref": "fBeschiktevoorzieningVroegsteingangsdatum/v0"
+                    "id": "fBeschikteVzVroegsteIngang",
+                    "$ref": "fBeschikteVzVroegsteIngang/v0"
                 },
                 {
                     "id": "fFactuurregelWrv",
@@ -82,15 +82,15 @@
                     "$ref": "fLeveringHsjh/v0"
                 },
                 {
-                    "id": "fVerplichtingBudgetjaarPgbjeugd",
+                    "id": "fVpBdgjrPgbjeugd",
                     "$ref": "fVerplichtingBudgetjaarPgbjeugd/v0"
                 },
                 {
-                    "id": "fVerplichtingBudgetjaarPgbwijkzorgmobw",
-                    "$ref": "fVerplichtingBudgetjaarPgbwijkzorgmobw/v0"
+                    "id": "fVpBdgjrPgbwijkzorgmobw",
+                    "$ref": "fVpBdgjrPgbwijkzorgmobw/v0"
                 },
                 {
-                    "id": "fVerplichtingBudgetjaarWra",
+                    "id": "fVpBdgjrWra",
                     "$ref": "fVerplichtingBudgetjaarWra/v0"
                 },
                 {
