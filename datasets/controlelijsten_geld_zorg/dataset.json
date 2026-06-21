@@ -83,7 +83,7 @@
                 },
                 {
                     "id": "fVpBdgjrPgbjeugd",
-                    "$ref": "fVerplichtingBudgetjaarPgbjeugd/v0"
+                    "$ref": "fVpBdgjrPgbjeugd/v0"
                 },
                 {
                     "id": "fVpBdgjrPgbwijkzorgmobw",
@@ -91,7 +91,7 @@
                 },
                 {
                     "id": "fVpBdgjrWra",
-                    "$ref": "fVerplichtingBudgetjaarWra/v0"
+                    "$ref": "fVpBdgjrWra/v0"
                 },
                 {
                     "id": "mtaBusinessDefinities",
