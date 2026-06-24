@@ -3,7 +3,7 @@
     "title": "Sluiten wachtlijstbegeleiding",
     "description": "Beschrijving voor sluiten_wachtlijstbegeleiding",
     "type": "table",
-    "version": "0.0.2",
+    "version": "0.1.1",
     "status": "under_development",
     "schema": {
         "$schema": "http://json-schema.org/draft-07/schema#",
