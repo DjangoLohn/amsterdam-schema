@@ -16,8 +16,7 @@
         "required": [
             "schema",
             "clientTrajectusId",            
-            "opvanglocatie"
-            
+            "opvanglocatie"            
         ],
         "display": "clientTrajectusIdVoorgedragen",
         "properties": {
