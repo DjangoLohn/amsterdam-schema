@@ -10,12 +10,14 @@
         "type": "object",
         "additionalProperties": false,
         "identifier": [
-            "clientTrajectusId",            
+            "clientTrajectusIdGeaccepteerd",
+            "clientTrajectusIdVoorgedragen",
             "opvanglocatie"            
         ],
         "required": [
             "schema",
-            "clientTrajectusId",            
+            "clientTrajectusIdGeaccepteerd",
+            "clientTrajectusIdVoorgedragen",
             "opvanglocatie"            
         ],
         "display": "clientTrajectusIdVoorgedragen",
